@@ -1,0 +1,81 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_content",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_author",
+				"type": "string"
+			}
+		],
+		"name": "addQuote",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getQuote",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "content",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "author",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getQuoteCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "quotes",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "content",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "author",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
