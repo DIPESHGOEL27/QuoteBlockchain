@@ -7,7 +7,7 @@ const App = ()=> {
   return (
     <div className="App">
       <header className="header">
-      <h1>Random Quote Generator</h1>
+      <h1>Quote on Blockchain</h1>
       </header>
       <main className="main-content">
         <QuoteOptions/>
